@@ -13,28 +13,102 @@ body {
 	margin: 0;
 }
 
+
+
+#title {
+	position: sticky;
+	top: 0;
+}
+
+.top-img {
+	background-size: cover;
+	background-position: center;
+	height: 700px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+.title {
+	margin: 0;
+	padding: 5px 10px;
+	color: black;
+	font-family: "Yu Mincho", "YuMincho", "Hiragino Mincho ProN", "HGS明朝E", "MS P明朝", serif;
+	font-size: 4em;
+	position: sticky;
+	top: 0;
+}
+.top-img .title{
+	font-weight: bold;
+	background-image: radial-gradient(
+			rgba(255, 255, 255, 0.5),
+			rgba(255, 255, 255, 0.4),
+			rgba(255, 255, 255, 0),
+			rgba(255, 255, 255, 0));
+	padding: 40px 130px;
+	
+}
+h1[class="title"] {
+	color: white ;
+}
+
+.header-subtitle {
+	font-size: 2em;
+}
+
+.header-right-menu-area {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	gap: 2em;
+	margin-right: 2em;
+}
+
+.header-right-menu-area * {
+	font-family: "Yu Mincho", "YuMincho", "Hiragino Mincho ProN", "HGS明朝E", "MS P明朝", serif;
+}
+
+.header-right-menu {
+	overflow: hidden;
+
+}
+
+.header-right-menu .menu-subject {
+	margin: 0;
+	height: 5em;
+}
+
+.top-area {
+	background-color: black;
+	z-index: 2;
+	position: relative;
+}
+
+
+
 header {
 	text-align: center;
 	margin: 0;
-	height: 700px;
+	height: 5em;
+	width: 100%;
 	display: flex;
-	flex-direction: column;
-	justify-content: center;
+	justify-content: space-between;
 	align-items: center;
+	z-index: 1;
+	position: fixed;
+	top: 0;
+	background-color: black;
+	overflow: hidden;
 }
-
-header h1 {
-	margin: 0;
-	padding: 20px;
-	color: black;
-	font-family: "Yu Mincho", "YuMincho", "Hiragino Mincho ProN", "HGS明朝E", "MS P明朝", serif;
-	text-shadow: 0 0 15px white;
-	font-size: 3em;
-}
-
 
 h2 {
 	border-bottom: 3px solid black;
+	font-size: 3em;
+	text-align: center;
+	text-shadow: 0 0 40px white;
 }
 
 .center {
@@ -66,7 +140,8 @@ section {
 }
 
 .small-article {
-	max-width: 30em;
+	max-width: 50em;
+	margin: 0 2em;
 }
 
 
@@ -83,17 +158,12 @@ article {
 	background-color: black;
 	box-shadow: 0 0 20px grey;
 	border-radius: 10px;
-	padding: 15px;
+	padding: 30px;
 	margin: 30px auto;
 	color: black;
 	max-width: 60em;
 }
 
-
-a {
-	text-decoration: none;
-	display: block;
-}
 
 a:hover article {
 	transform: translateY(-5px);

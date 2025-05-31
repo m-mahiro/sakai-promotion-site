@@ -1,9 +1,7 @@
-header {
+.top-img {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.5),
-			rgba(0, 0, 0, 0.3),
-			rgba(0, 0, 0, 1)), url("../assets/kofun/nintoku-kofun.jpg");
-	background-size: cover;
-	background-position: center;
+	rgba(0, 0, 0, 0.3),
+	rgba(0, 0, 0, 1)), url("../assets/kofun/nintoku-kofun.jpg");
 }
 
 /* 各セクションの背景*/
@@ -82,14 +80,18 @@ article {
 
 @media screen and (min-width: 900px) and (min-height: 600px) {
 
-	#nav {
+	nav {
 		position: sticky;
-		bottom: 0px;
+		bottom: 0;
 	}
 
 
 }
 
+
+div[class="small-article"] a  {
+	text-decoration: none;
+}
 
 
 nav {
@@ -139,11 +141,11 @@ nav a[class="circle"] {
 	background-repeat: no-repeat;
 	background-position: center;
 	transition: 0.5s;
+	text-decoration: none;
 }
 
 
-
-nav a[class="circle"]:hover {
+nav a[class="circle"]:hover {w
 	box-shadow: 0 0 70px white;
 	transform: scale(1.5);
 	transition: 0.3s;
