@@ -105,6 +105,15 @@ https://www.touken-world.jp/tips/50131/
 kofun-chamber-types.jpg
 https://www.geolab.jp/documents/science/science-095/
 
+heritage-kofun.png
+https://www.city.sakai.lg.jp/kanko/rekishi/sei/index.html
+
+sakai-museum.png
+http://www.sakai-journal.co.jp/348/04.htm
+
+visitor-center.jpg
+https://osaka-info.jp/special/dc/event/detail24/
+
 ### 環濠
 moat-map.jpg
 https://www.atpress.ne.jp/releases/428371/img_428371_6.jpg
@@ -115,3 +124,19 @@ https://sakai-film.jp/location/%E7%92%B0%E6%BF%A0%E3%82%AF%E3%83%AB%E3%83%BC%E3%
 ### 鍛冶
 smithing.avif
 https://prtimes.jp/story/detail/Qbpvy5C7JJx
+
+teppou.jpg
+https://www.sankei.com/article/20190419-UKT3ZDEPDNLMDAQIXNIPSE6WYE/
+
+knife-professional.jpg
+https://www.sakai-tcb.or.jp/feature/detail/18
+
+cut.png
+https://www.sakai-tcb.or.jp/feature/detail/18
+
+fish-knife.webp
+https://maguro-tei.myshopify.com/ja
+
+
+sakai-risho-no-mori.jpg
+https://www.sakai-rishonomori.com/
