@@ -1,5 +1,10 @@
+:root {
+	--font-mincho: "Yu Mincho", "YuMincho", "Hiragino Mincho ProN", "HGS明朝E", "MS P明朝", serif;
+	--font-main: 'Roboto', sans-serif;
+}
+
 * {
-	font-family: 'Roboto', sans-serif;
+	font-family: var(--font-main);
 	box-sizing: border-box;
 	color: white;
 }
@@ -36,49 +41,52 @@ body {
 	margin: 0;
 	padding: 5px 10px;
 	color: black;
-	font-family: "Yu Mincho", "YuMincho", "Hiragino Mincho ProN", "HGS明朝E", "MS P明朝", serif;
-	font-size: 4em;
+	font-family: var(--font-mincho), serif;
+	font-size: 2rem;
 	position: sticky;
 	top: 0;
 }
-.top-img .title{
+/*.top-img .title{*/
+/*	font-weight: bold;*/
+/*	background-image: radial-gradient(*/
+/*			rgba(255, 255, 255, 0.5),*/
+/*			rgba(255, 255, 255, 0.4),*/
+/*			rgba(255, 255, 255, 0),*/
+/*			rgba(255, 255, 255, 0));*/
+/*	padding: 40px 130px;*/
+/*	*/
+/*}*/
+
+.top-img .title {
+	text-shadow: 0 0 20px white;
 	font-weight: bold;
-	background-image: radial-gradient(
-			rgba(255, 255, 255, 0.5),
-			rgba(255, 255, 255, 0.4),
-			rgba(255, 255, 255, 0),
-			rgba(255, 255, 255, 0));
-	padding: 40px 130px;
-	
+	font-size: 3em;
+	color: white;
 }
+
 h1[class="title"] {
 	color: white ;
 }
 
 .header-subtitle {
-	font-size: 2em;
+	font-size: 3rem;
+	font-family: var(--font-mincho), serif;
 }
 
-.header-right-menu-area {
+
+.header-menu-area {
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
-	gap: 2em;
 	margin-right: 2em;
 }
 
-.header-right-menu-area * {
-	font-family: "Yu Mincho", "YuMincho", "Hiragino Mincho ProN", "HGS明朝E", "MS P明朝", serif;
-}
 
-.header-right-menu {
-	overflow: hidden;
-
-}
-
-.header-right-menu .menu-subject {
+.menu-subject {
 	margin: 0;
-	height: 5em;
+	font-size: 1.5em;
+	color: white;
+	font-family: var(--font-mincho), serif;
 }
 
 .top-area {
@@ -92,7 +100,7 @@ h1[class="title"] {
 header {
 	text-align: center;
 	margin: 0;
-	height: 5em;
+	height: 4em;
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
@@ -101,7 +109,6 @@ header {
 	position: fixed;
 	top: 0;
 	background-color: black;
-	overflow: hidden;
 }
 
 h2 {
@@ -173,4 +180,15 @@ a:hover article {
 
 a article {
 	transition: 0.3s;
+}
+
+
+.header-menu a {
+	text-decoration: none;
+	padding: 10px 20px;
+	display: flex;
+}
+
+.header-menu a:hover {
+	text-decoration: underline;
 }

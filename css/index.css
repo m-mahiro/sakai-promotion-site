@@ -40,25 +40,25 @@
 
 article {
 	background-size: cover;
-	background-position: right top;
+	background-position: center;
 	background-repeat: no-repeat;
-
 }
 
 /*各articleの背景(古墳セクション)*/
 #kofun-types-article {
 	background-image: linear-gradient(to left, rgba(0, 0, 0, 0.5),
 			rgba(0, 0, 0, 1)), url("../../assets/kofun/kofun-types.jpg");
+	background-position: top right;
 }
 
 #mozu-heritage-article {
 	background-image: linear-gradient(to left, rgba(0, 0, 0, 0.5),
-			rgba(0, 0, 0, 1)), url("../../assets/kofun/kofun-types.jpg");
+			rgba(0, 0, 0, 1)), url("../../assets/kofun/heritage-kofun.png");
 }
 
 #kofun-spots-article {
 	background-image: linear-gradient(to left, rgba(0, 0, 0, 0.5),
-			rgba(0, 0, 0, 1)), url("../../assets/kofun/kofun-types.jpg");
+			rgba(0, 0, 0, 1)), url("../../assets/kofun/visitor-center.jpg");
 }
 
 /*各articleの背景(環濠セクション)*/
@@ -69,12 +69,30 @@ article {
 
 #river-impact-article {
 	background-image: linear-gradient(to left, rgba(0, 0, 0, 0.5),
-			rgba(0, 0, 0, 1)), url("../../assets/moat/moat-map.jpg");
+			rgba(0, 0, 0, 1)), url("../../assets/moat/transition-sea-line.jpg");
 }
 
 #moat-spots-article {
 	background-image: linear-gradient(to left, rgba(0, 0, 0, 0.5),
-			rgba(0, 0, 0, 1)), url("../../assets/moat/moat-map.jpg");
+			rgba(0, 0, 0, 1)), url("../../assets/moat/sakai-risho-no-mori.jpg");
+}
+
+
+
+/*各articleの背景(鍛冶セクション)*/
+#smithing-origin-article {
+	background-image: linear-gradient(to left, rgba(0, 0, 0, 0.5),
+	rgba(0, 0, 0, 1)), url("../../assets/smithing/knife-professional.jpg");
+}
+
+#modern-smithing-article {
+	background-image: linear-gradient(to left, rgba(0, 0, 0, 0.5),
+	rgba(0, 0, 0, 1)), url("../../assets/smithing/fish-knife.webp");
+}
+
+#smithing-spots-article {
+	background-image: linear-gradient(to left, rgba(0, 0, 0, 0.5),
+	rgba(0, 0, 0, 1)), url("../../assets/smithing/cut.png");
 }
 
 
@@ -135,20 +153,20 @@ nav {
 
 
 nav a[class="circle"] {
-	font-family: "Yu Mincho", "YuMincho", "Hiragino Mincho ProN", "HGS明朝E", "MS P明朝", serif;
-	font-size: 3em;
+	font-family: var(--font-mincho), serif;
+	font-size: 3rem;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
-	transition: 0.5s;
+	transition: 0.5s ease;
 	text-decoration: none;
 }
 
 
-nav a[class="circle"]:hover {w
+nav a[class="circle"]:hover {
 	box-shadow: 0 0 70px white;
 	transform: scale(1.5);
-	transition: 0.3s;
+	transition: 0.3s ease;
 }
 
 
@@ -168,12 +186,12 @@ nav a[class="circle"]:hover {w
 			rgba(0, 0, 0, 1)),
 		url(../assets/kofun/nintoku-kofun.jpg);
 	background-size: 240%;
-	transition: 0.3s;
+	transition: 0.3s ease;
 }
 
 #nav-kofun:hover {
 	background-image: url(../assets/kofun/nintoku-kofun.jpg);
-	transition: 0.5s;
+	transition: 0.5s ease;
 	background-size: 160%;
 }
 
@@ -182,13 +200,13 @@ nav a[class="circle"]:hover {w
 			rgba(0, 0, 0, 0.3),
 			rgba(0, 0, 0, 1)),
 		url(../assets/moat/moat.jpg);
-	transition: 0.3s;
+	transition: 0.3s ease;
 	background-size: 240%;
 }
 
 #nav-moat:hover {
 	background-image: url(../assets/moat/moat.jpg);
-	transition: 0.5s;
+	transition: 0.5s ease;
 	background-size: 160%;
 }
 
@@ -197,12 +215,12 @@ nav a[class="circle"]:hover {w
 			rgba(0, 0, 0, 0.3),
 			rgba(0, 0, 0, 1)),
 		url(../assets/smithing/smithing.avif);
-	transition: 0.3s;
+	transition: 0.3s ease;
 	background-size: 270%;
 }
 
 #nav-smithing:hover {
 	background-image: url(../assets/smithing/smithing.avif);
-	transition: 0.5s;
+	transition: 0.5s ease;
 	background-size: 180%;
 }
