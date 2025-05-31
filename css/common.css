@@ -1,5 +1,10 @@
+:root {
+	--font-mincho: "Yu Mincho", "YuMincho", "Hiragino Mincho ProN", "HGS明朝E", "MS P明朝", serif;
+	--font-main: 'Roboto', sans-serif;
+}
+
 * {
-	font-family: 'Roboto', sans-serif;
+	font-family: var(--font-main);
 	box-sizing: border-box;
 	color: white;
 }
@@ -13,33 +18,107 @@ body {
 	margin: 0;
 }
 
-header {
-	text-align: center;
-	margin: 0;
-	height: 600px;
+
+
+#title {
+	position: sticky;
+	top: 0;
+}
+
+.top-img {
+	background-size: cover;
+	background-position: center;
+	height: 700px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-}
-
-header h1 {
+	text-align: center;
 	margin: 0;
-	padding: 20px;
-	color: black;
-	font-family: "Yu Mincho", "YuMincho", "Hiragino Mincho ProN", "HGS明朝E", "MS P明朝", serif;
-	font-size: 2.5em;
-	text-shadow: 0 0 15px white;
-	font-size: 3em;
+	padding: 0;
 }
 
+.title {
+	margin: 0;
+	padding: 5px 10px;
+	color: black;
+	font-family: var(--font-mincho), serif;
+	font-size: 2rem;
+	position: sticky;
+	top: 0;
+}
+/*.top-img .title{*/
+/*	font-weight: bold;*/
+/*	background-image: radial-gradient(*/
+/*			rgba(255, 255, 255, 0.5),*/
+/*			rgba(255, 255, 255, 0.4),*/
+/*			rgba(255, 255, 255, 0),*/
+/*			rgba(255, 255, 255, 0));*/
+/*	padding: 40px 130px;*/
+/*	*/
+/*}*/
+
+.top-img .title {
+	text-shadow: 0 0 20px white;
+	font-weight: bold;
+	font-size: 3em;
+	color: white;
+}
+
+h1[class="title"] {
+	color: white ;
+}
+
+.header-subtitle {
+	font-size: 3rem;
+	font-family: var(--font-mincho), serif;
+}
+
+
+.header-menu-area {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	margin-right: 2em;
+}
+
+
+.menu-subject {
+	margin: 0;
+	font-size: 1.5em;
+	color: white;
+	font-family: var(--font-mincho), serif;
+}
+
+.top-area {
+	background-color: black;
+	z-index: 2;
+	position: relative;
+}
+
+
+
+header {
+	text-align: center;
+	margin: 0;
+	height: 4em;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 1;
+	position: fixed;
+	top: 0;
+	background-color: black;
+}
 
 h2 {
 	border-bottom: 3px solid black;
+	font-size: 3em;
+	text-align: center;
+	text-shadow: 0 0 40px white;
 }
 
 .center {
-	/*display: flex;*/
-	/*justify-content: center;*/
 	align-items: center;
 	padding: 2em 0;
 	width: 100%;
@@ -68,7 +147,8 @@ section {
 }
 
 .small-article {
-	max-width: 30em;
+	max-width: 50em;
+	margin: 0 2em;
 }
 
 
@@ -85,17 +165,12 @@ article {
 	background-color: black;
 	box-shadow: 0 0 20px grey;
 	border-radius: 10px;
-	padding: 15px;
+	padding: 30px;
 	margin: 30px auto;
 	color: black;
 	max-width: 60em;
 }
 
-
-a {
-	text-decoration: none;
-	display: block;
-}
 
 a:hover article {
 	transform: translateY(-5px);
@@ -105,4 +180,15 @@ a:hover article {
 
 a article {
 	transition: 0.3s;
+}
+
+
+.header-menu a {
+	text-decoration: none;
+	padding: 10px 20px;
+	display: flex;
+}
+
+.header-menu a:hover {
+	text-decoration: underline;
 }
