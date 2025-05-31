@@ -1,3 +1,7 @@
 header {
-	background-image: url("../../assets/kofun/nintoku-kofun.jpg");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+			rgba(0, 0, 0, 0.3),
+			rgba(0, 0, 0, 1)), url("../../assets/kofun/nintoku-kofun.jpg");
+	background-size: cover;
+	background-position: center;
 }

@@ -111,3 +111,8 @@ https://www.touken-world.jp/tips/50131/
 
 kofun-chamber-types.jpg
 https://www.geolab.jp/documents/science/science-095/
+
+### 環濠
+moat.jpg
+https://www.atpress.ne.jp/releases/428371/img_428371_6.jpg
+

@@ -1,8 +1,12 @@
 * {
 	font-family: 'Roboto', sans-serif;
 	box-sizing: border-box;
+	color: white;
 }
 
+html {
+	scroll-behavior: smooth;
+}
 
 body {
 	background-color: black;
@@ -13,11 +17,6 @@ header {
 	text-align: center;
 	margin: 0;
 	height: 600px;
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5),
-			rgba(0, 0, 0, 0.3),
-			rgba(0, 0, 0, 1)), url("../assets/kofun/nintoku-kofun.jpg");
-	background-size: cover;
-	background-position: center;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -29,17 +28,37 @@ header h1 {
 	color: black;
 	font-family: "Yu Mincho", "YuMincho", "Hiragino Mincho ProN", "HGS明朝E", "MS P明朝", serif;
 	font-size: 2.5em;
-	text-shadow: 0 0 30px white;
+	text-shadow: 0 0 15px white;
+	font-size: 3em;
 }
+
 
 h2 {
 	border-bottom: 3px solid black;
 }
 
-main {
-	margin: 10px auto;
-	max-width: 60em;
+.left-align {
+	/* display: flex; */
+	margin-right: auto;
 }
+
+.section-description {
+	color: black;
+	background-color: rgba(255, 255, 255, 0.5);
+	padding: 20px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+	border-radius: 20px;
+	box-sizing: content-box;
+}
+
+section {
+	padding: 100px;;
+}
+
+.small-article {
+	max-width: 30em;
+}
+
 
 figure,
 figcaption {
@@ -51,39 +70,27 @@ figure img {
 }
 
 article {
-	background-color: dimgrey;
-	box-shadow: 0 0 20px black;
+	background-color: black;
+	box-shadow: 0 0 20px grey;
 	border-radius: 10px;
 	padding: 15px;
-	margin: 20px 0;
+	margin: 30px auto;
+	color: black;
+	max-width: 40em;
 }
+
 
 a {
 	text-decoration: none;
-	color: inherit;
 	display: block;
 }
 
 a:hover article {
-	background-color: #f5f5dc;
 	transform: translateY(-5px);
-	transition: all 0.3s ease;
+	box-shadow: 0 0 40px white;
+	transition: 0.5s;
 }
 
-
-
-.bg-kofun {
-	background-image: ;
+a article {
+	transition: 0.3s;
 }
-
-.bg-moat {
-	background-image: ;
-}
-
-.bg-smithing {
-	background-image: ;
-}
-
-.hover-shadow:hover {}
-
-.hover-magnify:hover {}

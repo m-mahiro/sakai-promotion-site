@@ -1,0 +1,165 @@
+
+
+
+header {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+			rgba(0, 0, 0, 0.3),
+			rgba(0, 0, 0, 1)), url("../assets/kofun/nintoku-kofun.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+#kofun-section {
+	background-image: linear-gradient(rgba(0, 0, 0, 1),
+			rgba(0, 0, 0, 0.5),
+			rgba(0, 0, 0, 0.5),
+			rgba(0, 0, 0, 0.5),
+			rgba(0, 0, 0, 1)), url("../assets/kofun/nintoku-kofun.jpg");
+	background-size: cover;
+	background-position: center;
+
+}
+
+#moat-section {
+	background-image: linear-gradient(rgba(0, 0, 0, 1),
+			rgba(0, 0, 0, 0.5),
+			rgba(0, 0, 0, 0.5),
+			rgba(0, 0, 0, 0.5),
+			rgba(0, 0, 0, 1)), url("../assets/moat/moat.jpg");
+	background-size: cover;
+	background-position: center;
+
+}
+
+#smithing-section {
+	background-image: linear-gradient(rgba(0, 0, 0, 1),
+			rgba(0, 0, 0, 0.5),
+			rgba(0, 0, 0, 0.5),
+			rgba(0, 0, 0, 0.5),
+			rgba(0, 0, 0, 1)), url("../assets/moat/moat.jpg");
+	background-size: cover;
+	background-position: center;
+
+}
+
+article {
+	background-size: cover;
+	background-position: right top;
+	background-repeat: no-repeat;
+
+}
+
+#kofun-types-article {
+	background-image: linear-gradient(to left, rgba(0, 0, 0, 0.5),
+			rgba(0, 0, 0, 1)), url("../../assets/kofun/kofun-types.jpg");
+}
+
+#mozu-heritage-article {
+	background-image: linear-gradient(to left, rgba(0, 0, 0, 0.5),
+			rgba(0, 0, 0, 1)), url("../../assets/kofun/kofun-types.jpg");
+}
+
+#kofun-spots-article {
+	background-image: linear-gradient(to left, rgba(0, 0, 0, 0.5),
+			rgba(0, 0, 0, 1)), url("../../assets/kofun/kofun-types.jpg");
+}
+
+
+nav {
+	display: flex;
+	flex-wrap: wrap;
+	margin: auto 0;
+	justify-content: space-around;
+	height: 400px;
+}
+
+@media screen and (max-width: 720px) {
+	
+	nav {
+		display: flex;
+		flex-wrap: wrap;
+		margin: auto 0;
+		justify-content: space-around;
+		height: 500px;
+	}
+}
+@media screen and (max-width: 480px) {
+	
+	nav {
+		display: flex;
+		flex-wrap: wrap;
+		margin: auto 0;
+		justify-content: space-around;
+		height: 800px;
+	}
+}
+
+
+
+nav a[class="circle"] {
+	font-family: "Yu Mincho", "YuMincho", "Hiragino Mincho ProN", "HGS明朝E", "MS P明朝", serif;
+	font-size: 3em;
+	background-size: cover;
+	transition: 0.5s;
+}
+
+
+
+nav a[class="circle"]:hover {
+	box-shadow: 0 0 70px white;
+	transform: scale(1.5);
+	transition: 0.3s;
+}
+
+
+.circle {
+	border-radius: 50%;
+	width: 5em;
+	height: 5em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: aqua;
+}
+
+#nav-kofun {
+	background-image: radial-gradient(
+			rgba(0, 0, 0, 0.3),
+			rgba(0, 0, 0, 0.3),
+			rgba(0, 0, 0, 1)
+		),
+		url(../assets/kofun/nintoku-kofun.jpg);
+	transition: 0.3s;
+}
+#nav-kofun:hover {
+	background-image: url(../assets/kofun/nintoku-kofun.jpg);
+	transition: 0.5s;
+}
+
+#nav-moat {
+	background-image:  radial-gradient(
+			rgba(0, 0, 0, 0.3),
+			rgba(0, 0, 0, 0.3),
+			rgba(0, 0, 0, 1)
+	),
+	url(../assets/kofun/nintoku-kofun.jpg);
+	transition: 0.3s;
+}
+#nav-moat:hover {
+	background-image: url(../assets/kofun/nintoku-kofun.jpg);
+	transition: 0.5s;
+}
+
+#nav-smithing {
+	background-image:  radial-gradient(
+			rgba(0, 0, 0, 0.3),
+			rgba(0, 0, 0, 0.3),
+			rgba(0, 0, 0, 1)
+	),
+	url(../assets/kofun/nintoku-kofun.jpg);
+	transition: all 0.3s;
+}
+#nav-smithing:hover {
+	background-image: url(../assets/kofun/nintoku-kofun.jpg);
+	transition: all 0.5s;
+}
