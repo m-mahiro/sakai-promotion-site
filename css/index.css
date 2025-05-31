@@ -68,9 +68,13 @@ article {
 nav {
 	display: flex;
 	flex-wrap: wrap;
-	margin: auto 0;
-	justify-content: space-around;
+	margin: 0 auto;
+	justify-content: center;
+	align-items: center;
 	height: 400px;
+	text-align: center;
+	max-width: 100em;
+	gap: 5em;
 }
 
 @media screen and (max-width: 720px) {
@@ -78,9 +82,11 @@ nav {
 	nav {
 		display: flex;
 		flex-wrap: wrap;
-		margin: auto 0;
-		justify-content: space-around;
+		margin: 0 auto;
+		justify-content: center;
+		align-items: center;
 		height: 500px;
+		gap: 2em;
 	}
 }
 @media screen and (max-width: 480px) {
@@ -88,9 +94,11 @@ nav {
 	nav {
 		display: flex;
 		flex-wrap: wrap;
-		margin: auto 0;
-		justify-content: space-around;
+		margin: 0 auto;
+		justify-content: center;
+		align-items: center;
 		height: 800px;
+		gap: 2em;
 	}
 }
 

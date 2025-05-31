@@ -37,7 +37,15 @@ h2 {
 	border-bottom: 3px solid black;
 }
 
-.left-align {
+.center {
+	/*display: flex;*/
+	/*justify-content: center;*/
+	align-items: center;
+	padding: 2em 0;
+	width: 100%;
+}
+
+.left-align-article article {
 	/* display: flex; */
 	margin-right: auto;
 }
@@ -51,8 +59,13 @@ h2 {
 	box-sizing: content-box;
 }
 
+.section-content {
+	max-width: 50em;
+}
+
 section {
-	padding: 100px;;
+	padding: 100px;
+	;
 }
 
 .small-article {
