@@ -9,6 +9,7 @@ header {
 	background-position: center;
 }
 
+/* 各セクションの背景*/
 #kofun-section {
 	background-image: linear-gradient(rgba(0, 0, 0, 1),
 			rgba(0, 0, 0, 0.5),
@@ -49,6 +50,7 @@ article {
 
 }
 
+/*各articleの背景(古墳セクション)*/
 #kofun-types-article {
 	background-image: linear-gradient(to left, rgba(0, 0, 0, 0.5),
 			rgba(0, 0, 0, 1)), url("../../assets/kofun/kofun-types.jpg");
@@ -62,6 +64,22 @@ article {
 #kofun-spots-article {
 	background-image: linear-gradient(to left, rgba(0, 0, 0, 0.5),
 			rgba(0, 0, 0, 1)), url("../../assets/kofun/kofun-types.jpg");
+}
+
+/*各articleの背景(環濠セクション)*/
+#moat-origin-article {
+	background-image: linear-gradient(to left, rgba(0, 0, 0, 0.5),
+	rgba(0, 0, 0, 1)), url("../../assets/moat/moat-map.jpg");
+}
+
+#river-impact-article {
+	background-image: linear-gradient(to left, rgba(0, 0, 0, 0.5),
+	rgba(0, 0, 0, 1)), url("../../assets/moat/moat-map.jpg");
+}
+
+#moat-spots-article {
+	background-image: linear-gradient(to left, rgba(0, 0, 0, 0.5),
+	rgba(0, 0, 0, 1)), url("../../assets/moat/moat-map.jpg");
 }
 
 
@@ -108,6 +126,8 @@ nav a[class="circle"] {
 	font-family: "Yu Mincho", "YuMincho", "Hiragino Mincho ProN", "HGS明朝E", "MS P明朝", serif;
 	font-size: 3em;
 	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
 	transition: 0.5s;
 }
 
@@ -137,11 +157,13 @@ nav a[class="circle"]:hover {
 			rgba(0, 0, 0, 1)
 		),
 		url(../assets/kofun/nintoku-kofun.jpg);
+	background-size: 240%;
 	transition: 0.3s;
 }
 #nav-kofun:hover {
 	background-image: url(../assets/kofun/nintoku-kofun.jpg);
 	transition: 0.5s;
+	background-size: 160%;
 }
 
 #nav-moat {
@@ -150,12 +172,14 @@ nav a[class="circle"]:hover {
 			rgba(0, 0, 0, 0.3),
 			rgba(0, 0, 0, 1)
 	),
-	url(../assets/kofun/nintoku-kofun.jpg);
+	url(../assets/moat/moat.jpg);
 	transition: 0.3s;
+	background-size: 240%;
 }
 #nav-moat:hover {
-	background-image: url(../assets/kofun/nintoku-kofun.jpg);
+	background-image: url(../assets/moat/moat.jpg);
 	transition: 0.5s;
+	background-size: 160%;
 }
 
 #nav-smithing {
@@ -165,9 +189,11 @@ nav a[class="circle"]:hover {
 			rgba(0, 0, 0, 1)
 	),
 	url(../assets/kofun/nintoku-kofun.jpg);
-	transition: all 0.3s;
+	transition: 0.3s;
+	background-size: 240%;
 }
 #nav-smithing:hover {
 	background-image: url(../assets/kofun/nintoku-kofun.jpg);
-	transition: all 0.5s;
+	transition: 0.5s;
+	background-size: 160%;
 }
