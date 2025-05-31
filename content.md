@@ -100,11 +100,14 @@
 
 ## 参考にさせていただいたサイト
 
-### 環濠都市
-https://www.city.sakai.lg.jp/kurashi/doro/doboku/kasensuiro/shoukai/73148720230712112228546.html
-https://www.sakai-tcb.or.jp/feature/detail/81
-
 ## 画像出展
+
+### 古墳
 nintoku-kofun.jpg
 https://otent-nankai.jp/category/spot/190913_nintoku_277
 
+kofun-types.jpg
+https://www.touken-world.jp/tips/50131/
+
+kofun-chamber-types.jpg
+https://www.geolab.jp/documents/science/science-095/

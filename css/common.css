@@ -1,3 +1,78 @@
+* {
+	font-family: 'Roboto',  sans-serif;
+	boxsizing: border-box;
+}
+
+
+body{
+	background-color: black;
+	margin: 0;
+}
+
+header {
+    text-align: center;
+    margin: 0;
+    height: 600px;
+    background-image: linear-gradient(
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)
+        ),
+        url("/assets/kofun/nintoku-kofun.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    padding: 20px;
+    color: black;
+    font-family:    "Yu Mincho", "YuMincho", "Hiragino Mincho ProN", "HGS明朝E", "MS P明朝", serif;
+    font-size: 2.5em;
+	text-shadow: 0 0 30px white;
+}
+
+h2 {
+	border-bottom: 3px solid black;
+}
+
+main {
+	margin: 10px auto;
+	max-width: 60em;
+}
+
+figure, figcaption {
+	text-align: center;
+}
+
+figure img {
+	width: 80%;
+}
+
+article {
+	background-color: dimgrey;
+	box-shadow: 0 0 20px black;
+	border-radius: 10px;
+	padding: 15px;
+	margin: 20px 0;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+	display: block;
+}
+
+a:hover article {
+	background-color: #f5f5dc;
+	transform: translateY(-5px);
+	transition: all 0.3s ease;
+}
+
+
+
 .bg-kofun {
 	background-image: ;
 }
@@ -15,7 +90,3 @@
 
 .hover-magnify {
 }
-
-
-
-
