@@ -1,6 +1,3 @@
-
-
-
 header {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.5),
 			rgba(0, 0, 0, 0.3),
@@ -37,7 +34,7 @@ header {
 			rgba(0, 0, 0, 0.5),
 			rgba(0, 0, 0, 0.5),
 			rgba(0, 0, 0, 0.5),
-			rgba(0, 0, 0, 1)), url("../assets/moat/moat.jpg");
+			rgba(0, 0, 0, 1)), url("../assets/smithing/smithing.avif");
 	background-size: cover;
 	background-position: center;
 
@@ -69,18 +66,30 @@ article {
 /*各articleの背景(環濠セクション)*/
 #moat-origin-article {
 	background-image: linear-gradient(to left, rgba(0, 0, 0, 0.5),
-	rgba(0, 0, 0, 1)), url("../../assets/moat/moat-map.jpg");
+			rgba(0, 0, 0, 1)), url("../../assets/moat/moat-map.jpg");
 }
 
 #river-impact-article {
 	background-image: linear-gradient(to left, rgba(0, 0, 0, 0.5),
-	rgba(0, 0, 0, 1)), url("../../assets/moat/moat-map.jpg");
+			rgba(0, 0, 0, 1)), url("../../assets/moat/moat-map.jpg");
 }
 
 #moat-spots-article {
 	background-image: linear-gradient(to left, rgba(0, 0, 0, 0.5),
-	rgba(0, 0, 0, 1)), url("../../assets/moat/moat-map.jpg");
+			rgba(0, 0, 0, 1)), url("../../assets/moat/moat-map.jpg");
 }
+
+
+@media screen and (min-width: 900px) and (min-height: 600px) {
+
+	#nav {
+		position: sticky;
+		bottom: 0px;
+	}
+
+
+}
+
 
 
 nav {
@@ -95,8 +104,8 @@ nav {
 	gap: 5em;
 }
 
-@media screen and (max-width: 720px) {
-	
+@media screen and (max-width: 900px) {
+
 	nav {
 		display: flex;
 		flex-wrap: wrap;
@@ -107,8 +116,9 @@ nav {
 		gap: 2em;
 	}
 }
-@media screen and (max-width: 480px) {
-	
+
+@media screen and (max-width: 600px) {
+
 	nav {
 		display: flex;
 		flex-wrap: wrap;
@@ -151,15 +161,14 @@ nav a[class="circle"]:hover {
 }
 
 #nav-kofun {
-	background-image: radial-gradient(
+	background-image: radial-gradient(rgba(0, 0, 0, 0.3),
 			rgba(0, 0, 0, 0.3),
-			rgba(0, 0, 0, 0.3),
-			rgba(0, 0, 0, 1)
-		),
+			rgba(0, 0, 0, 1)),
 		url(../assets/kofun/nintoku-kofun.jpg);
 	background-size: 240%;
 	transition: 0.3s;
 }
+
 #nav-kofun:hover {
 	background-image: url(../assets/kofun/nintoku-kofun.jpg);
 	transition: 0.5s;
@@ -167,15 +176,14 @@ nav a[class="circle"]:hover {
 }
 
 #nav-moat {
-	background-image:  radial-gradient(
+	background-image: radial-gradient(rgba(0, 0, 0, 0.3),
 			rgba(0, 0, 0, 0.3),
-			rgba(0, 0, 0, 0.3),
-			rgba(0, 0, 0, 1)
-	),
-	url(../assets/moat/moat.jpg);
+			rgba(0, 0, 0, 1)),
+		url(../assets/moat/moat.jpg);
 	transition: 0.3s;
 	background-size: 240%;
 }
+
 #nav-moat:hover {
 	background-image: url(../assets/moat/moat.jpg);
 	transition: 0.5s;
@@ -183,17 +191,16 @@ nav a[class="circle"]:hover {
 }
 
 #nav-smithing {
-	background-image:  radial-gradient(
+	background-image: radial-gradient(rgba(0, 0, 0, 0.3),
 			rgba(0, 0, 0, 0.3),
-			rgba(0, 0, 0, 0.3),
-			rgba(0, 0, 0, 1)
-	),
-	url(../assets/kofun/nintoku-kofun.jpg);
+			rgba(0, 0, 0, 1)),
+		url(../assets/smithing/smithing.avif);
 	transition: 0.3s;
-	background-size: 240%;
+	background-size: 270%;
 }
+
 #nav-smithing:hover {
-	background-image: url(../assets/kofun/nintoku-kofun.jpg);
+	background-image: url(../assets/smithing/smithing.avif);
 	transition: 0.5s;
-	background-size: 160%;
+	background-size: 180%;
 }

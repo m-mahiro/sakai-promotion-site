@@ -106,6 +106,12 @@ kofun-chamber-types.jpg
 https://www.geolab.jp/documents/science/science-095/
 
 ### 環濠
-moat.jpg
+moat-map.jpg
 https://www.atpress.ne.jp/releases/428371/img_428371_6.jpg
 
+moat.jpg
+https://sakai-film.jp/location/%E7%92%B0%E6%BF%A0%E3%82%AF%E3%83%AB%E3%83%BC%E3%82%BAsakai/
+
+### 鍛冶
+smithing.avif
+https://prtimes.jp/story/detail/Qbpvy5C7JJx

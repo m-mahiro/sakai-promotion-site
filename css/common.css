@@ -16,8 +16,9 @@ body {
 header {
 	text-align: center;
 	margin: 0;
-	height: 600px;
+	height: 700px;
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 }
@@ -27,7 +28,6 @@ header h1 {
 	padding: 20px;
 	color: black;
 	font-family: "Yu Mincho", "YuMincho", "Hiragino Mincho ProN", "HGS明朝E", "MS P明朝", serif;
-	font-size: 2.5em;
 	text-shadow: 0 0 15px white;
 	font-size: 3em;
 }
@@ -38,8 +38,6 @@ h2 {
 }
 
 .center {
-	/*display: flex;*/
-	/*justify-content: center;*/
 	align-items: center;
 	padding: 2em 0;
 	width: 100%;
