@@ -104,6 +104,11 @@ article {
 	background-position: center;
 	height: 700px;
 	width: 100%;
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	
 }
 
 .top-area .title {
