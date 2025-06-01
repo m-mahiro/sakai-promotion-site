@@ -92,10 +92,7 @@ article {
 	background-color: black;
 	z-index: 2;
 	position: relative;
-	justify-content: center;
-	align-items: end;
 	text-align: center;
-	height: 1200px;
 }
 
 .top-img {

@@ -48,6 +48,14 @@ nav {
 	margin-bottom: 300px;
 }
 
+.top-area {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	height: 1500px;
+	padding-bottom: 150px;
+}
 
 /* スクリーンンの幅がある程度あったら、navをstickyにする */
 @media screen and (min-width: 56rem) and (min-height: 700px) {
