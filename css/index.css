@@ -60,15 +60,16 @@ nav {
 
 
 /*------------------------------------------------------------------articleのスタイル-----------------------------*/
+a > article {
+	transition: 0.3s;
+}
+
 a:hover > article {
 	transform: translateY(-5px);
 	box-shadow: 0 0 40px white;
 	transition: 0.5s;
 }
 
-a > article {
-	transition: 0.3s;
-}
 
 .left-align-article article {
 	margin-right: auto;
