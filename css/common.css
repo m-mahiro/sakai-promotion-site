@@ -62,7 +62,7 @@ section {
 	box-sizing: content-box;
 }
 
-.section-content {
+section > * {
 	max-width: 50em;
 }
 
