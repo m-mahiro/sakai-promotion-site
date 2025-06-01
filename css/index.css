@@ -108,6 +108,12 @@ a > article {
 	background-repeat: no-repeat;
 }
 
+.article-list article {
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
 
 
 
