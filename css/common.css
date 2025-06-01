@@ -36,6 +36,11 @@ figure img {
 }
 
 
+a  {
+	text-decoration: none;
+}
+
+
 h2 {
 	border-bottom: 3px solid black;
 	font-size: 3em;

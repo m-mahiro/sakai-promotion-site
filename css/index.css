@@ -107,11 +107,6 @@ article {
 }
 
 
-div[class="small-article"] a  {
-	text-decoration: none;
-}
-
-
 nav {
 	display: flex;
 	flex-wrap: wrap;
