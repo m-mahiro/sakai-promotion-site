@@ -42,7 +42,6 @@ a  {
 
 
 h2 {
-	border-bottom: 3px solid black;
 	font-size: 3em;
 	border-bottom: 1px solid white;
 	/*border-bottom: 3px solid black;*/
@@ -93,21 +92,24 @@ article {
 	background-color: black;
 	z-index: 2;
 	position: relative;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	height: 1500px;
+	padding-bottom: 20%;
+	
 }
 
 .top-img {
 	background-size: cover;
 	background-position: center;
 	height: 700px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-	margin: 0;
-	padding: 0;
+	width: 100%;
 }
 
-.top-img .title {
+.top-area .title {
 	text-shadow: 0 0 20px white;
 	font-weight: bold;
 	font-size: 3em;
@@ -115,6 +117,13 @@ article {
 }
 
 
+.top-contents {
+	position: sticky;
+	display: flex;
+	flex-direction: column;
+	gap: 80px;
+	bottom: 100px;
+}
 
 
 /*-----------------------------------------------------------------------------------headerのスタイル----------------*/
@@ -179,27 +188,23 @@ header .title {
 
 .top-img[id="home-page-top-img"] {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.5),
-	rgba(0, 0, 0, 0.3),
 	rgba(0, 0, 0, 1)), url("../assets/kofun/nintoku-kofun.jpg");
 }
 
 .top-img[id="kofun-section-top-img"] {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.5),
-	rgba(0, 0, 0, 0.3),
 	rgba(0, 0, 0, 1)), url("../assets/kofun/nintoku-kofun.jpg");
 	
 }
 
 .top-img[id="moat-section-top-img"] {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.5),
-	rgba(0, 0, 0, 0.3),
 	rgba(0, 0, 0, 1)), url("../assets/moat/moat.jpg");
 	
 }
 
 .top-img[id="smithing-section-top-img"] {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.5),
-	rgba(0, 0, 0, 0.3),
 	rgba(0, 0, 0, 1)), url("../assets/smithing/smithing.avif");
 	
 }
