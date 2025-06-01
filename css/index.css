@@ -22,8 +22,8 @@ nav a[class="circle"]:hover {
 
 .circle {
 	border-radius: 50%;
-	width: 5em;
-	height: 5em;
+	width: 15rem;
+	height: 15rem;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -43,40 +43,32 @@ nav {
 	height: 400px;
 	text-align: center;
 	max-width: 100em;
-	gap: 5em;
+	gap: 5rem;
 }
 
 
 /* スクリーンンの幅がある程度あったら、navをstickyにする */
-@media screen and (min-width: 800px) and (min-height: 700px) {
+@media screen and (min-width: 56rem) and (min-height: 700px) {
 	nav {
 		position: sticky;
 		bottom: 0;
 	}
 }
 
-
-@media screen and (max-width: 800px) {
+/* 15 + 5 + 15 + 5 + 15 + 1 */
+/* ↑ +1 はほんの少しの真心 */
+@media screen and (max-width: 56rem) {
 	nav {
-		display: flex;
-		flex-wrap: wrap;
-		margin: 0 auto;
-		justify-content: center;
-		align-items: center;
-		height: 500px;
-		gap: 2em;
+		/* 15 + 5 + 15 */
+		height: 35rem;
 	}
 }
 
-@media screen and (max-width: 600px) {
+/* 15 + 5 + 15 + 1*/
+@media screen and (max-width: 36rem) {
 	nav {
-		display: flex;
-		flex-wrap: wrap;
-		margin: 0 auto;
-		justify-content: center;
-		align-items: center;
-		height: 800px;
-		gap: 2em;
+		/* 15 + 5 + 15 + 5 + 15 */
+		height: 55rem;
 	}
 }
 
