@@ -165,8 +165,20 @@ header .title {
 	margin-right: 2em;
 }
 
+.header-menu {
+	display: flex;
+	gap: 20px;
+	flex-direction: column;
+	align-items: center;
+}
 
 .menu-subject {
+	height: 5rem;
+	display: flex;
+	align-items: center;
+}
+
+.menu-subject * {
 	margin: 0;
 	font-size: 1.5em;
 	color: white;
