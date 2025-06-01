@@ -1,4 +1,4 @@
-/* 各セクションの背景*/
+/*------各セクションの背景画像を指定--------*/
 #kofun-section {
 	background-image: linear-gradient(rgba(0, 0, 0, 1),
 			rgba(0, 0, 0, 0.5),
@@ -32,6 +32,7 @@
 
 }
 
+/*------------articleのスタイル-----------------------------*/
 a:hover > article {
 	transform: translateY(-5px);
 	box-shadow: 0 0 40px white;
@@ -56,7 +57,10 @@ a > article {
 	background-repeat: no-repeat;
 }
 
-/*各articleの背景(古墳セクション)*/
+
+
+/*------------ articleの背景画像の指定 ------------------*/
+/*----- 古墳のセクション -------*/
 #kofun-types-article {
 	background-image: linear-gradient(to left, rgba(0, 0, 0, 0.5),
 			rgba(0, 0, 0, 1)), url("../assets/kofun/kofun-types.jpg");
@@ -73,7 +77,8 @@ a > article {
 			rgba(0, 0, 0, 1)), url("../assets/kofun/visitor-center.jpg");
 }
 
-/*各articleの背景(環濠セクション)*/
+
+/*------ 環濠のセクション -------*/
 #moat-origin-article {
 	background-image: linear-gradient(to left, rgba(0, 0, 0, 0.5),
 			rgba(0, 0, 0, 1)), url("../assets/moat/moat-map.jpg");
@@ -91,7 +96,7 @@ a > article {
 
 
 
-/*各articleの背景(鍛冶セクション)*/
+/*------ 鍛冶のセクション -------*/
 #smithing-origin-article {
 	background-image: linear-gradient(to left, rgba(0, 0, 0, 0.5),
 	rgba(0, 0, 0, 1)), url("../assets/smithing/knife-professional.jpg");
@@ -108,57 +113,11 @@ a > article {
 }
 
 
-@media screen and (min-width: 900px) and (min-height: 600px) {
 
-	nav {
-		position: sticky;
-		bottom: 0;
-	}
+/*---------------------------- navのスタイル ----------------------------*/
 
 
-}
-
-
-nav {
-	display: flex;
-	flex-wrap: wrap;
-	margin: 0 auto;
-	justify-content: center;
-	align-items: center;
-	height: 400px;
-	text-align: center;
-	max-width: 100em;
-	gap: 5em;
-}
-
-@media screen and (max-width: 900px) {
-
-	nav {
-		display: flex;
-		flex-wrap: wrap;
-		margin: 0 auto;
-		justify-content: center;
-		align-items: center;
-		height: 500px;
-		gap: 2em;
-	}
-}
-
-@media screen and (max-width: 600px) {
-
-	nav {
-		display: flex;
-		flex-wrap: wrap;
-		margin: 0 auto;
-		justify-content: center;
-		align-items: center;
-		height: 800px;
-		gap: 2em;
-	}
-}
-
-
-
+/*------------- 各ページのリンクのスタイル --------------*/
 nav a[class="circle"] {
 	font-family: var(--font-mincho), serif;
 	font-size: 3rem;
@@ -187,13 +146,64 @@ nav a[class="circle"]:hover {
 	background-color: aqua;
 }
 
+
+
+/*------ 画面サイズによって、navのスタイルを変える -----*/
+
+nav {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	justify-content: center;
+	align-items: center;
+	height: 400px;
+	text-align: center;
+	max-width: 100em;
+	gap: 5em;
+}
+
+
+/* スクリーンンの幅がある程度あったら、navをstickyにする */
+@media screen and (min-width: 900px) and (min-height: 600px) {
+	nav {
+		position: sticky;
+		bottom: 0;
+	}
+}
+
+
+@media screen and (max-width: 900px) {
+	nav {
+		display: flex;
+		flex-wrap: wrap;
+		margin: 0 auto;
+		justify-content: center;
+		align-items: center;
+		height: 500px;
+		gap: 2em;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	nav {
+		display: flex;
+		flex-wrap: wrap;
+		margin: 0 auto;
+		justify-content: center;
+		align-items: center;
+		height: 800px;
+		gap: 2em;
+	}
+}
+
+/*------- 各リンクの背景画像の指定 ---------*/
 #nav-kofun {
 	background-image: radial-gradient(rgba(0, 0, 0, 0.3),
 			rgba(0, 0, 0, 0.3),
 			rgba(0, 0, 0, 1)),
 		url(../assets/kofun/nintoku-kofun.jpg);
-	background-size: 240%;
 	transition: 0.3s ease;
+	background-size: 240%;
 }
 
 #nav-kofun:hover {
