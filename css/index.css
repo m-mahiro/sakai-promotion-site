@@ -163,6 +163,11 @@ a > article {
 
 
 /*------------------------------------------------------------------------各sectionの背景画像を指定--------*/
+section {
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
 #kofun-section {
 	background-image: linear-gradient(rgba(0, 0, 0, 1),
 	rgba(0, 0, 0, 0.5),
