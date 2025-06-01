@@ -47,34 +47,34 @@ article {
 /*各articleの背景(古墳セクション)*/
 #kofun-types-article {
 	background-image: linear-gradient(to left, rgba(0, 0, 0, 0.5),
-			rgba(0, 0, 0, 1)), url("../../assets/kofun/kofun-types.jpg");
+			rgba(0, 0, 0, 1)), url("../assets/kofun/kofun-types.jpg");
 	background-position: top right;
 }
 
 #mozu-heritage-article {
 	background-image: linear-gradient(to left, rgba(0, 0, 0, 0.5),
-			rgba(0, 0, 0, 1)), url("../../assets/kofun/heritage-kofun.png");
+			rgba(0, 0, 0, 1)), url("../assets/kofun/heritage-kofun.png");
 }
 
 #kofun-spots-article {
 	background-image: linear-gradient(to left, rgba(0, 0, 0, 0.5),
-			rgba(0, 0, 0, 1)), url("../../assets/kofun/visitor-center.jpg");
+			rgba(0, 0, 0, 1)), url("../assets/kofun/visitor-center.jpg");
 }
 
 /*各articleの背景(環濠セクション)*/
 #moat-origin-article {
 	background-image: linear-gradient(to left, rgba(0, 0, 0, 0.5),
-			rgba(0, 0, 0, 1)), url("../../assets/moat/moat-map.jpg");
+			rgba(0, 0, 0, 1)), url("../assets/moat/moat-map.jpg");
 }
 
 #river-impact-article {
 	background-image: linear-gradient(to left, rgba(0, 0, 0, 0.5),
-			rgba(0, 0, 0, 1)), url("../../assets/moat/transition-sea-line.jpg");
+			rgba(0, 0, 0, 1)), url("../assets/moat/transition-sea-line.jpg");
 }
 
 #moat-spots-article {
 	background-image: linear-gradient(to left, rgba(0, 0, 0, 0.5),
-			rgba(0, 0, 0, 1)), url("../../assets/moat/sakai-risho-no-mori.jpg");
+			rgba(0, 0, 0, 1)), url("../assets/moat/sakai-risho-no-mori.jpg");
 }
 
 
@@ -82,17 +82,17 @@ article {
 /*各articleの背景(鍛冶セクション)*/
 #smithing-origin-article {
 	background-image: linear-gradient(to left, rgba(0, 0, 0, 0.5),
-	rgba(0, 0, 0, 1)), url("../../assets/smithing/knife-professional.jpg");
+	rgba(0, 0, 0, 1)), url("../assets/smithing/knife-professional.jpg");
 }
 
 #modern-smithing-article {
 	background-image: linear-gradient(to left, rgba(0, 0, 0, 0.5),
-	rgba(0, 0, 0, 1)), url("../../assets/smithing/fish-knife.webp");
+	rgba(0, 0, 0, 1)), url("../assets/smithing/fish-knife.webp");
 }
 
 #smithing-spots-article {
 	background-image: linear-gradient(to left, rgba(0, 0, 0, 0.5),
-	rgba(0, 0, 0, 1)), url("../../assets/smithing/cut.png");
+	rgba(0, 0, 0, 1)), url("../assets/smithing/cut.png");
 }
 
 
