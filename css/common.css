@@ -112,6 +112,9 @@ article {
 	color: white;
 }
 
+
+/*----- 各ページで指定する背景画像を指定 -----*/
+
 .top-img[id="home-page-top-img"] {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.5),
 	rgba(0, 0, 0, 0.3),
