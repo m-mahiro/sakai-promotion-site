@@ -1,33 +1,3 @@
-
-/*------------------------------------------------------------------articleのスタイル-----------------------------*/
-a:hover > article {
-	transform: translateY(-5px);
-	box-shadow: 0 0 40px white;
-	transition: 0.5s;
-}
-
-a > article {
-	transition: 0.3s;
-}
-
-.left-align-article article {
-	/* display: flex; */
-	margin-right: auto;
-}
-
-
-.article-list {
-	max-width: 50em;
-	margin: 0 2em;
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-}
-
-
-
-
-
 /*------------------------------------------------------------------- navのスタイル ----------------------------*/
 
 
@@ -109,6 +79,37 @@ nav {
 		gap: 2em;
 	}
 }
+
+
+
+
+/*------------------------------------------------------------------articleのスタイル-----------------------------*/
+a:hover > article {
+	transform: translateY(-5px);
+	box-shadow: 0 0 40px white;
+	transition: 0.5s;
+}
+
+a > article {
+	transition: 0.3s;
+}
+
+.left-align-article article {
+	/* display: flex; */
+	margin-right: auto;
+}
+
+
+.article-list {
+	max-width: 50em;
+	margin: 0 2em;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+
+
 
 /*------------------------------------------------------------------------navのa要素の背景画像を指定 ---------*/
 #nav-kofun {
