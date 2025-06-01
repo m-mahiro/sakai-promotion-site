@@ -103,9 +103,6 @@ a > article {
 .article-list {
 	max-width: 50em;
 	margin: 0 2em;
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
 }
 
 .article-list article {
@@ -172,9 +169,6 @@ a > article {
 	rgba(0, 0, 0, 0.5),
 	rgba(0, 0, 0, 0.5),
 	rgba(0, 0, 0, 1)), url("../assets/kofun/nintoku-kofun.jpg");
-	background-size: cover;
-	background-position: center;
-	
 }
 
 #moat-section {
@@ -183,9 +177,6 @@ a > article {
 	rgba(0, 0, 0, 0.5),
 	rgba(0, 0, 0, 0.5),
 	rgba(0, 0, 0, 1)), url("../assets/moat/moat.jpg");
-	background-size: cover;
-	background-position: center;
-	
 }
 
 #smithing-section {
@@ -194,9 +185,6 @@ a > article {
 	rgba(0, 0, 0, 0.5),
 	rgba(0, 0, 0, 0.5),
 	rgba(0, 0, 0, 1)), url("../assets/smithing/smithing.avif");
-	background-size: cover;
-	background-position: center;
-	
 }
 
 
