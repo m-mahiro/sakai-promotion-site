@@ -115,10 +115,10 @@ article {
 
 
 .top-contents {
-	position: sticky;
 	display: flex;
 	flex-direction: column;
-	gap: 80px;
+	gap: 120px;
+	position: sticky;
 	bottom: 100px;
 }
 
