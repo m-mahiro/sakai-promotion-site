@@ -99,7 +99,7 @@ a > article {
 }
 
 
-.small-article {
+.article-list {
 	max-width: 50em;
 	margin: 0 2em;
 }
