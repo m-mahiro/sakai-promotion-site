@@ -32,14 +32,7 @@ nav a[class="circle"]:hover {
 
 
 
-/*------ 画面サイズによって、navのスタイルを変える -----*/
-
-nav {
-	display: flex;
-	flex-wrap: wrap;
-	max-width: 100em;
-	gap: 5rem;
-}
+/*------ navを含めtop-contentsの挙動を決める。 ------*/
 
 .top-area {
 	display: flex;
@@ -47,12 +40,25 @@ nav {
 	align-items: center;
 	justify-content: space-between;
 	height: 1500px;
-	padding-bottom: 150px;
+	padding-bottom: 20%;
 }
 
 .top-contents {
 	position: sticky;
-	bottom: 0;
+	display: flex;
+	flex-direction: column;
+	gap: 80px;
+	bottom: 100px;
+}
+
+
+/*------ 画面サイズによって、navのスタイルを変える -----*/
+
+nav {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 100em;
+	gap: 5rem;
 }
 
 /* 15 + 5 + 15 + 5 + 15 + 1 (+1 はほんの少しの真心)*/
