@@ -31,27 +31,6 @@ nav a[class="circle"]:hover {
 }
 
 
-
-/*------ navを含めtop-contentsの挙動を決める。 ------*/
-
-.top-area {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: space-between;
-	height: 1500px;
-	padding-bottom: 20%;
-}
-
-.top-contents {
-	position: sticky;
-	display: flex;
-	flex-direction: column;
-	gap: 80px;
-	bottom: 100px;
-}
-
-
 /*------ 画面サイズによって、navのスタイルを変える -----*/
 
 nav {
