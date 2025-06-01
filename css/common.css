@@ -42,7 +42,6 @@ a  {
 
 
 h2 {
-	border-bottom: 3px solid black;
 	font-size: 3em;
 	border-bottom: 1px solid white;
 	/*border-bottom: 3px solid black;*/
@@ -93,6 +92,10 @@ article {
 	background-color: black;
 	z-index: 2;
 	position: relative;
+	justify-content: center;
+	align-items: end;
+	text-align: center;
+	height: 1200px;
 }
 
 .top-img {
@@ -100,18 +103,18 @@ article {
 	background-position: center;
 	height: 700px;
 	display: flex;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
+
 	margin: 0;
 	padding: 0;
 }
 
-.top-img .title {
+.top-area .title {
 	text-shadow: 0 0 20px white;
 	font-weight: bold;
 	font-size: 3em;
 	color: white;
+	position: sticky;
+	bottom: 60%;
 }
 
 

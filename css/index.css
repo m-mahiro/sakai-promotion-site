@@ -44,6 +44,8 @@ nav {
 	text-align: center;
 	max-width: 100em;
 	gap: 5rem;
+	/*padding: 300px;*/
+	margin-bottom: 300px;
 }
 
 
@@ -51,7 +53,7 @@ nav {
 @media screen and (min-width: 56rem) and (min-height: 700px) {
 	nav {
 		position: sticky;
-		bottom: 0;
+		bottom: 20%;
 	}
 }
 
@@ -86,7 +88,6 @@ a > article {
 }
 
 .left-align-article article {
-	/* display: flex; */
 	margin-right: auto;
 }
 
