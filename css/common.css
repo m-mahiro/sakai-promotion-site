@@ -50,9 +50,6 @@ section {
 	padding: 100px;
 }
 
-
-
-
 .section-description {
 	color: black;
 	background-color: rgba(255, 255, 255, 0.5);
@@ -104,7 +101,7 @@ a > article {
 
 
 
-
+/*-------トップの大きな画像があるエリアのスタイル-------*/
 .top-area {
 	background-color: black;
 	z-index: 2;
@@ -132,6 +129,8 @@ a > article {
 }
 
 
+
+/*------------headerのスタイル----------------*/
 header {
 	text-align: center;
 	margin: 0;
