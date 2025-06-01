@@ -37,12 +37,8 @@ nav a[class="circle"]:hover {
 nav {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
 	max-width: 100em;
 	gap: 5rem;
-	margin: 100px auto;
 }
 
 .top-area {
