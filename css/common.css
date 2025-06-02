@@ -120,16 +120,6 @@ article {
 	font-family: var(--font-mincho), serif;
 }
 
-
-.top-contents {
-	display: flex;
-	flex-direction: column;
-	gap: 120px;
-	position: sticky;
-	bottom: 100px;
-}
-
-
 /*-----------------------------------------------------------------------------------headerのスタイル----------------*/
 header {
 	text-align: center;
