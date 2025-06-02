@@ -86,7 +86,9 @@ a:hover > article {
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-	height: 250px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
 
