@@ -199,24 +199,32 @@ header .title {
 /*-------------------------------------------------------------------------------- 各ページでのトップに指定する背景画像を指定 -----*/
 
 .top-img[id="home-page-top-img"] {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+	background-image: linear-gradient(
+			rgba(0, 0, 0, 0.3),
+			rgba(0, 0, 0, 0.3),
 	rgba(0, 0, 0, 1)), url("../assets/kofun/nintoku-kofun.jpg");
 }
 
 .top-img[id="kofun-section-top-img"] {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+	background-image: linear-gradient(
+			rgba(0, 0, 0, 0.3),
+			rgba(0, 0, 0, 0.3),
 	rgba(0, 0, 0, 1)), url("../assets/kofun/nintoku-kofun.jpg");
 	
 }
 
 .top-img[id="moat-section-top-img"] {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+	background-image: linear-gradient(
+			rgba(0, 0, 0, 0.3),
+			rgba(0, 0, 0, 0.3),
 	rgba(0, 0, 0, 1)), url("../assets/moat/moat.jpg");
 	
 }
 
 .top-img[id="smithing-section-top-img"] {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+	background-image: linear-gradient(
+			rgba(0, 0, 0, 0.3),
+			rgba(0, 0, 0, 0.3),
 	rgba(0, 0, 0, 1)), url("../assets/smithing/smithing.avif");
 	
 }
