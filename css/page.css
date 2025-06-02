@@ -3,3 +3,11 @@
 	position: sticky;
 	bottom: 50%;
 }
+
+
+h3 {
+	font-family: var(--font-mincho), serif;
+	margin-left: 4em;
+	padding-left: 2em;
+	border-left: solid 1px white ;
+}
