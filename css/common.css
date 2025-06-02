@@ -112,6 +112,11 @@ article {
 	
 }
 
+
+.title {
+	font-family: var(--font-mincho), serif;
+}
+
 .top-area .title {
 	text-shadow: 0 0 20px white;
 	font-weight: bold;
