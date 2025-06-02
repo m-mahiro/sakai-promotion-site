@@ -49,6 +49,12 @@ h2 {
 	text-shadow: 0 0 40px white;
 }
 
+h3 {
+	font-family: var(--font-mincho), serif;
+	margin-left: 4em;
+	padding-left: 2em;
+	border-left: solid 1px white ;
+}
 
 /*------------------------------------------------------------------------------------- sectionのスタイル ---------*/
 
@@ -145,10 +151,12 @@ header .title {
 	font-size: 2rem;
 	position: sticky;
 	top: 0;
+	text-shadow: 0 0 10px white;
+	
 }
 
 .header-subtitle {
-	font-size: 3rem;
+	font-size: 2rem;
 	font-family: var(--font-mincho), serif;
 }
 
