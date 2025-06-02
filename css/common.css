@@ -36,7 +36,7 @@ figure img {
 }
 
 
-a  {
+a {
 	text-decoration: none;
 }
 
@@ -53,7 +53,13 @@ h2 {
 /*------------------------------------------------------------------------------------- sectionのスタイル ---------*/
 
 section {
-	padding: 100px;
+	padding: 5em;
+}
+
+@media screen and (max-width: 60rem) {
+	section {
+		padding: 5px
+	}
 }
 
 .section-description {
