@@ -70,8 +70,6 @@ section > * {
 }
 
 
-
-
 /*------------------------------------------------------------------------------- articleのスタイル ---------*/
 article {
 	background-color: black;
@@ -82,9 +80,6 @@ article {
 	color: black;
 	max-width: 60em;
 }
-
-
-
 
 
 /*---------------------------------------------------------------------トップの大きな画像があるエリアのスタイル-------*/
@@ -145,7 +140,7 @@ header {
 
 header .title {
 	margin: 0;
-	padding:10px 30px;
+	padding: 10px 30px;
 	font-family: var(--font-mincho), serif;
 	font-size: 2rem;
 	position: sticky;
