@@ -178,35 +178,35 @@ section {
 /*---------------------------------------------------------------------- articleの背景画像の指定 ------------------*/
 /*----- 古墳のセクション -------*/
 #kofun-types-article {
-	background-image: linear-gradient(to left, rgba(0, 0, 0, 0.5),
+	background-image: linear-gradient(to left, rgba(0, 0, 0, 0.3),
 	rgba(0, 0, 0, 1)), url("../assets/kofun/kofun-types.jpg");
 	background-position: top right;
 }
 
 #mozu-heritage-article {
-	background-image: linear-gradient(to left, rgba(0, 0, 0, 0.5),
+	background-image: linear-gradient(to left, rgba(0, 0, 0, 0.3),
 	rgba(0, 0, 0, 1)), url("../assets/kofun/heritage-kofun.png");
 }
 
 #kofun-spots-article {
-	background-image: linear-gradient(to left, rgba(0, 0, 0, 0.5),
+	background-image: linear-gradient(to left, rgba(0, 0, 0, 0.3),
 	rgba(0, 0, 0, 1)), url("../assets/kofun/visitor-center.jpg");
 }
 
 
 /*------ 環濠のセクション -------*/
 #moat-origin-article {
-	background-image: linear-gradient(to left, rgba(0, 0, 0, 0.5),
+	background-image: linear-gradient(to left, rgba(0, 0, 0, 0.3),
 	rgba(0, 0, 0, 1)), url("../assets/moat/moat-map.jpg");
 }
 
 #river-impact-article {
-	background-image: linear-gradient(to left, rgba(0, 0, 0, 0.5),
+	background-image: linear-gradient(to left, rgba(0, 0, 0, 0.3),
 	rgba(0, 0, 0, 1)), url("../assets/moat/transition-sea-line.jpg");
 }
 
 #moat-spots-article {
-	background-image: linear-gradient(to left, rgba(0, 0, 0, 0.5),
+	background-image: linear-gradient(to left, rgba(0, 0, 0, 0.3),
 	rgba(0, 0, 0, 1)), url("../assets/moat/sakai-risho-no-mori.jpg");
 }
 
@@ -214,16 +214,16 @@ section {
 
 /*------ 鍛冶のセクション -------*/
 #smithing-origin-article {
-	background-image: linear-gradient(to left, rgba(0, 0, 0, 0.5),
+	background-image: linear-gradient(to left, rgba(0, 0, 0, 0.3),
 	rgba(0, 0, 0, 1)), url("../assets/smithing/knife-professional.jpg");
 }
 
 #modern-smithing-article {
-	background-image: linear-gradient(to left, rgba(0, 0, 0, 0.5),
+	background-image: linear-gradient(to left, rgba(0, 0, 0, 0.3),
 	rgba(0, 0, 0, 1)), url("../assets/smithing/fish-knife.webp");
 }
 
 #smithing-spots-article {
-	background-image: linear-gradient(to left, rgba(0, 0, 0, 0.5),
+	background-image: linear-gradient(to left, rgba(0, 0, 0, 0.3),
 	rgba(0, 0, 0, 1)), url("../assets/smithing/cut.png");
 }
