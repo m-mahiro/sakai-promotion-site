@@ -121,6 +121,12 @@ https://www.atpress.ne.jp/releases/428371/img_428371_6.jpg
 moat.jpg
 https://sakai-film.jp/location/%E7%92%B0%E6%BF%A0%E3%82%AF%E3%83%AB%E3%83%BC%E3%82%BAsakai/
 
+osaka-natsunojin.jpg
+https://ja.wikipedia.org/wiki/%E5%A4%A7%E5%9D%82%E3%81%AE%E9%99%A3
+
+sakai-port
+https://www.city.sakai.lg.jp/kurashi/doro/doboku/kasensuiro/shoukai/73148720230712112228546.html
+
 ### 鍛冶
 smithing.avif
 https://prtimes.jp/story/detail/Qbpvy5C7JJx
