@@ -41,6 +41,13 @@ nav {
 	gap: 5rem;
 }
 
+
+@media screen and (max-width: 60rem) {
+	section {
+		padding: 5px
+	}
+}
+
 /* 15 + 5 + 15 + 5 + 15 + 1 (+1 はほんの少しの真心)*/
 @media screen and (max-width: 56rem) {
 	nav {
