@@ -203,6 +203,16 @@ header .title {
 }
 
 
+@media screen and (max-width: 45rem) {
+	
+	.header-menu-area {
+		display: none;
+	}
+	
+	.header-subtitle {
+		display: none;
+	}
+}
 /*-------------------------------------------------------------------------------- 各ページでのトップに指定する背景画像を指定 -----*/
 
 .top-img[id="home-page-top-img"] {
