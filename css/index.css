@@ -2,12 +2,44 @@
 .top-contents {
 	display: flex;
 	flex-direction: column;
-	gap: 120px;
+	gap: 5rem;
 	position: sticky;
-	bottom: 100px;
+	bottom: 5rem;
 }
 
+@media screen and (max-height: 40rem) {
+	.top-contents {
+		position: static;
+	}
+	
+	.top-contents .title {
+		position: absolute;
+		top: 300px;
+		margin: 0 auto;
+	}
+	
+	.top-area .title {
+		align-self: center;
+	}
+	
+}
 
+@media screen and (max-width: 36rem) and (max-height: 70rem) {
+	.top-contents {
+		position: static;
+	}
+	
+	.top-contents .title {
+		position: absolute;
+		top: 300px;
+		margin: 0 auto;
+	}
+	
+	.top-area .title {
+		align-self: center;
+	}
+	
+}
 
 /*------------------------------------------------------------------- navのスタイル ----------------------------*/
 
