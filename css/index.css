@@ -8,7 +8,7 @@
 }
 
 /* navのaが2段になっているとき */
-@media screen and (max-width: 56rem) and (max-height: 40rem) {
+@media screen and (max-width: 56rem) and (max-height: 45rem) {
 	.top-contents {
 		position: static;
 	}
@@ -26,7 +26,7 @@
 }
 
 /*　navのaが3段になっているとき　= max-width: 36rem*/
-@media screen and (max-width: 36rem) and (max-height: 70rem) {
+@media screen and (max-width: 36rem) and (max-height: 75rem) {
 	.top-contents {
 		position: static;
 	}
