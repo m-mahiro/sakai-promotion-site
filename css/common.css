@@ -57,7 +57,7 @@ section {
 	padding: 5em;
 }
 
-@media screen and (max-width: 60rem) {
+@media screen and (max-width: 55rem) {
 	section {
 		padding-left: 5px;
 		padding-right: 5px;
