@@ -8,7 +8,7 @@
 }
 
 /* navのaが2段になっているとき */
-@media screen and (max-width: 56rem) and (max-height: 45rem) {
+@media screen and (max-width: 56rem) and (max-height: 55rem) {
 	.top-contents {
 		position: static;
 	}
