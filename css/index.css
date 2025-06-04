@@ -86,28 +86,17 @@ nav {
 	gap: 5rem;
 }
 
-/* navのaが2段になってしまうとき */
-/* 1段と2段が変化する瞬間のwidth = 15 + 5 + 15 + 5 + 15 = 55rem */
-@media screen and (max-width: 55rem) {
-	nav {
-		/* 2段の時のheight = 15 + 5 + 15 = 35rem */
-		height: 35rem;
-	}
-}
 
 
 /* navのaが小さくなる瞬間のwidth = 15 + 5 + 15 = 35rem*/
 @media screen and (max-width: 35rem) {
 	nav {
-		height: 7rem;
 		gap: 1rem;
-		
 	}
 	
 	nav a[class="circle"] {
 		font-size: larger;
 	}
-	
 	
 	.circle {
 		width: 7rem;
@@ -119,16 +108,6 @@ nav {
 		transform: none;
 		transition: none;
 	}
-	
-	/* 小さいバージョンのnavのaが2段と3段で変化する瞬間のwidth = 7 + 1 + 7 + 1 + 7 = 23rem */
-	@media screen and (max-width: 23rem) {
-		
-		nav {
-			/* 小さいバージョンのnavのaが2段組みの時のheight = 7 + 1 + 7 = 15rem */
-			height: 15rem;
-		}
-	}
-	
 }
 
 
