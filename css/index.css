@@ -27,6 +27,7 @@
 
 /*　navのaが3段になっているとき　= max-width:35rem*/
 @media screen and (max-width: 35rem) and (max-height: 75rem) {
+/*　navのaが小さくなっているとき　= max-width:35rem*/
 	.top-contents {
 		position: static;
 	}
@@ -95,11 +96,10 @@ nav {
 	}
 }
 
-/* navのaが3段になってしまうとき */
-/* 2段と3段が変化する瞬間のwidth = 15 + 5 + 15 = 35rem*/
+
+/* navのaが小さくなる瞬間のwidth = 15 + 5 + 15 = 35rem*/
 @media screen and (max-width: 35rem) {
 	nav {
-		/* 3段の時のheight = 15 + 5 + 15 + 5 + 15 = 55rem */
 		height: 7rem;
 		gap: 1rem;
 		
