@@ -51,6 +51,11 @@ h2 {
 	text-shadow: 0 0 40px white;
 }
 
+main {
+	display:  flex;
+	flex-direction: column;
+}
+
 /*------------------------------------------------------------------------------------- sectionのスタイル ---------*/
 
 section {
@@ -88,9 +93,10 @@ article {
 	box-shadow: 0 0 20px grey;
 	border-radius: 10px;
 	padding: 30px;
-	margin: 30px auto;
+	margin: 30px 15px;
 	color: black;
 	max-width: 60em;
+	align-self: center;
 }
 
 
