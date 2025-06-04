@@ -19,7 +19,7 @@ h3 {
 	justify-content: center;
 }
 
-.google-map iframe {
+iframe {
 	width: 100%;
 	aspect-ratio: 16/9;
 }
