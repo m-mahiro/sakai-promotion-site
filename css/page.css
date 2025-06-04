@@ -11,3 +11,15 @@ h3 {
 	padding-left: 2em;
 	border-left: solid 1px white ;
 }
+
+
+.google-map {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.google-map iframe {
+	width: 100%;
+	aspect-ratio: 16/9;
+}
