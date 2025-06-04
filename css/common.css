@@ -57,6 +57,17 @@ section {
 	padding: 5em;
 }
 
+@media screen and (max-width: 55rem) {
+	section {
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	
+	section > * {
+		margin: 0 auto;
+	}
+}
+
 .section-description {
 	color: black;
 	background-color: rgba(255, 255, 255, 0.5);
@@ -70,17 +81,6 @@ section > * {
 	max-width: 50em;
 }
 
-
-@media screen and (max-width: 55rem) {
-	section {
-		padding-left: 5px;
-		padding-right: 5px;
-	}
-	
-	section > * {
-		margin: 0 auto;
-	}
-}
 
 /*------------------------------------------------------------------------------- articleのスタイル ---------*/
 article {
