@@ -25,9 +25,8 @@
 	
 }
 
-/*　navのaが3段になっているとき　= max-width:35rem*/
-@media screen and (max-width: 35rem) and (max-height: 75rem) {
 /*　navのaが小さくなっているとき　= max-width:35rem*/
+@media screen and (max-width: 35rem) and (max-height: 20rem) {
 	.top-contents {
 		position: static;
 	}
