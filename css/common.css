@@ -133,6 +133,13 @@ article {
 	color: white;
 }
 
+
+@media screen and (max-width: 55rem) {
+	.top-image {
+		height: 300px;
+	}
+}
+
 /*-----------------------------------------------------------------------------------headerのスタイル----------------*/
 header {
 	text-align: center;
