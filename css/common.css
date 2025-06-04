@@ -29,6 +29,16 @@ figure img {
 	width: 80%;
 }
 
+@media screen and (max-width: 35rem) {
+	
+	figure img {
+		width: 100%;
+	}
+	figure {
+		margin : auto 5px;
+	}
+}
+
 .center {
 	display: flex;
 	justify-content: center;
